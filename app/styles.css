@@ -1,0 +1,70 @@
+body{
+    background: #f1e7e7;
+}
+.container{
+    width:450px;
+    height:130px;
+    padding: 5px 0px 5px 0px;
+    background:#f3ebda;
+    box-shadow: 0 0 6px 2px #c7a8a8;
+    color:#003ba9;
+    font-family:monospace;
+    font-size: 12px;
+   
+}
+.logo{
+    float:left
+}
+.player{
+    float:right;
+    margin:7px;
+}
+.song-title{
+    width:300px;
+    padding: 5px 0px 5px 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 10px;
+    position: absolute;
+}
+.current-time{
+    float: left;
+    font-size:8px;
+}
+.duration{
+    float:right;
+    font-size:8px;
+}
+.song-slider{
+    width:300px;
+    margin-top: 20px;
+}
+.controllers{
+    margin-left: 220px;
+}
+.controllers *{
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.volumeControl *{
+    float:right;
+    margin-right: 2px;
+    vertical-align: middle; 
+}
+.volume-slider{
+    width:70px;
+    margin-top: -2px;
+}
+
+.nextsong-title{
+    width:300px;
+    position: absolute;
+    padding: 5px 0px 5px 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 10px;
+}
